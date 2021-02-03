@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C4A5C50-BA13-4198-8101-61C97C0EE4D9}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		deploy.sh = deploy.sh
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		ProjectLexington.sln.licenseheader = ProjectLexington.sln.licenseheader
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonyBark.Dashboard.Server", "TonyBark.Dashboard\Server\TonyBark.Dashboard.Server.csproj", "{6F0EF4D8-BCF4-4716-8509-16B37C2471CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonyBark.Dashboard.Client", "TonyBark.Dashboard\Client\TonyBark.Dashboard.Client.csproj", "{6F58E21C-9D5E-4791-9AD4-781662A6DB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonyBark.Dashboard.Shared", "TonyBark.Dashboard\Shared\TonyBark.Dashboard.Shared.csproj", "{29371B85-C2C0-4A25-8800-A5ACED918E56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0EF4D8-BCF4-4716-8509-16B37C2471CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0EF4D8-BCF4-4716-8509-16B37C2471CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0EF4D8-BCF4-4716-8509-16B37C2471CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0EF4D8-BCF4-4716-8509-16B37C2471CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F58E21C-9D5E-4791-9AD4-781662A6DB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F58E21C-9D5E-4791-9AD4-781662A6DB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F58E21C-9D5E-4791-9AD4-781662A6DB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F58E21C-9D5E-4791-9AD4-781662A6DB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29371B85-C2C0-4A25-8800-A5ACED918E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29371B85-C2C0-4A25-8800-A5ACED918E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29371B85-C2C0-4A25-8800-A5ACED918E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29371B85-C2C0-4A25-8800-A5ACED918E56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2166FA2F-E608-42F6-9CC0-470C93B6ABA1}
+	EndGlobalSection
+EndGlobal
