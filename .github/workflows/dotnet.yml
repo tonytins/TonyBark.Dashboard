@@ -1,17 +1,17 @@
 name: .NET
 
 on:
-  push:
-    branches: master
-    schedule:
-      - cron: "0 0 1 * *"
-        
+    push:
+        branches: [main, master]
+        schedule:
+            - cron: "0 0 1 * *"
+
 jobs:
     build:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                dotnet: ["5.0.101"]
+                dotnet: ["5.0.102"]
 
         steps:
             - uses: actions/checkout@v2
